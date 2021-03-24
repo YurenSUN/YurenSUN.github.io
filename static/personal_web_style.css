@@ -1,0 +1,196 @@
+/*
+This is the css format for home.html
+Author: Yuren Sun
+*/
+
+
+/*  box and containers */
+
+.box {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    line-height: 150%;
+    margin: 0;
+    align-content: center;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    overflow: hidden;
+    /* fix position */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.left {
+    width: 30%;
+    height: 100%;
+    background-color: #dae4ec;
+    float: left;
+    text-align: left;
+    margin: 0;
+}
+
+.left_container {
+    /* background-color: red; */
+    margin: 20% 10%;
+}
+
+.right {
+    width: 70%;
+    height: 100%;
+    /* background-color: #f00; */
+    float: right;
+    overflow: scroll;
+    text-align: left;
+    display: flexbox;
+}
+
+.right_container {
+    margin: 0% 3% auto 3%;
+}
+
+
+/* imgs */
+
+.personal_img {
+    width: 70%;
+}
+
+.project_img {
+    width: 30%;
+    max-width: 250px;
+    float: left;
+}
+
+.icon-box {
+    display: inline-block;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.icon-row {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+
+/* texts */
+
+.name {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 40px;
+    margin: 4% 0;
+}
+
+.right_header {
+    font-family: "Times New Roman";
+    /* font-weight: bold; */
+    color: gray;
+    font-size: 25px;
+    margin: 2% auto;
+}
+
+.title {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 22px;
+    float: left;
+}
+
+.position {
+    float: left;
+}
+
+.time {
+    float: right;
+}
+
+.location {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.right_container a:link {
+    /* color for links */
+    color: #126bae;
+    text-decoration: none;
+}
+
+.right_container a:visited {
+    color: #185888;
+}
+
+.right_container a:hover {
+    color: #185888;
+    text-decoration: underline;
+}
+
+.right_container a:active {
+    color: #185888;
+}
+
+.left_container .copyright {
+    position: relative;
+    bottom: 0px;
+    color: gray;
+    font-weight: light;
+    font-size: 10px;
+}
+
+.left_container .copyright p{
+    margin: 0 auto;
+}
+
+
+/* misc */
+
+.button {
+    /*used for buttons*/
+    width: fit-content;
+    height: 20px;
+    background: #eef7f9;
+    margin: 0 2%;
+    text-align: center;
+}
+
+.break {
+    margin: 60px auto;
+    width: 80%;
+    color: #987cb9;
+}
+
+
+/* menu */
+
+.menu {
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    background-color: #f4efea;
+    height: max-content;
+    /* max-height: max-content; */
+    width: 100%;
+}
+
+.menu_container {
+    padding: 10px 2%;
+}
+
+.menu_container a {
+    display: inline-block;
+    color: rgb(94, 92, 92);
+    font-size: 25px;
+    line-height: 25px;
+    margin: 5px 30px 5px 0;
+    text-decoration: none;
+}
