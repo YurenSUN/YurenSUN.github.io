@@ -62,6 +62,7 @@
 | [CS 639](#computer-sciences-639---building-user-interfaces)|Building User Interfaces| CS|
 | [Econ 410](#economics-410---introductory-econometrics) | Introductory Econometrics| Econ, Math|
 | [Math 632](#mathematics-632---introduction-to-stochastic-processes)| Introduction To Stochastic Processes| Math|
+| 2021 Spring ||
 | [Econ 580](#economics-580---honors-tutorial-in-research-project-design)| Honors Tutorial in Research Project Design| Econ, Communication B, automatic honor|
 |[CS 559](#computer-sciences-559---computer-graphics)| Computer Graphics| CS|
 | [Econ 390](#economics-390---contemporary-economic-issues-visualization--analysis)| Contemporary Economic Issues （Visualization & Analysis）| Econ|
