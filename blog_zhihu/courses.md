@@ -27,14 +27,14 @@
 | 2018 Summer                                                                    |                                                        |                                                               |
 | [ESL 113](#esl-113)                                                            | Essentials of Academic Reading and Writing             | Jump to ESL 118 for Communication A for international student |
 | 2018 Fall                                                                      |                                                        |                                                               |
-| [Comp Sci 300](#comp-sci---300-programming-ⅱ)                                  | Programming Ⅱ                                          | CS                                                            |
+| [CS 300](#comp-sci---300-programming-ⅱ)                                  | Programming Ⅱ                                          | CS                                                            |
 | [Math 340](#math-340---elem-matrix--linear-algebra)                            | Element Matrix & Linear Algebra                        | Math, CS                                                      |
 | [Econ 311](#econ-311---intmediate-microecon---advance-treatment)               | Intmediate Microecon - Advance Treatment               | Econ, Math, Social Sciences with automatic honor              |
 | [German 101](#german-101---first-semester-german)                              | German 101 - First Semester German                     | None                                                          |
 | [Music 151](#music-151---basic-concepts-music-theory)                          | Basic Concepts - Music Theory                          | Humanity with automatic honor                                 |
 | 2019 Spring                                                                    |                                                        |                                                               |
-| [Comp Sci 252](#comp-sci-252---intro-to-computer-engineering)                  | Intro To Computer Engineering                          | CS                                                            |
-| [Comp Sci 400](#comp-sci-400---programming-iii)                                | Programming III                                        | CS                                                            |
+| [CS 252](#comp-sci-252---intro-to-computer-engineering)                  | Intro To Computer Engineering                          | CS                                                            |
+| [CS 400](#comp-sci-400---programming-iii)                                | Programming III                                        | CS                                                            |
 | [Econ 312](#econ-312---intermediate-macroeconomic-theory---advanced-treatment) | Intermediate Macroeconomic Theory - Advanced Treatment | Econ, Math, Social Sciences with automatic honor              |
 | [ESL 118](#esl-118---academic-writing-ii)                                      | Academic Writing II                                    | Communication A for international students                    |
 | [Math 234](#math-234---calculus--functions-of-several-variables)               | Calculus--Functions Of Several Variables               | Math, CS, Econ                                                |
@@ -45,24 +45,28 @@
 | [Art 108](#art-108---foundations-of-contemporary-art)                          | Foundations of Contemporary Art                        | Art, Humanity                                                 |
 | 2019 Fall |||
 | [Econ 475](#econ-475---economics-of-growth)| Economics of Growth| Econ, Math|
-| [Comp Sci 240](#comp-sci-240---introduction-to-discrete-mathematics)| Intro to Discrete Math| CS|
-| [Comp Sci 354](#comp-sci-354---machine-organization-and-programming)| Machine Organization and Programming| CS|
-| [Comp Sci 525](#comp-sci-525--linear-optimization)| Linear Optimization| CS, Math|
-| [Comp Sci 368](#comp-sci-368---c-for-java-programmers)| C for Java Programmers|None|
+| [CS 240](#comp-sci-240---introduction-to-discrete-mathematics)| Intro to Discrete Math| CS|
+| [CS 354](#comp-sci-354---machine-organization-and-programming)| Machine Organization and Programming| CS|
+| [CS 525](#comp-sci-525--linear-optimization)| Linear Optimization| CS, Math|
+| [CS 368](#comp-sci-368---c-for-java-programmers)| C for Java Programmers|None|
 | [Stat 309](#stat-309---introduction-to-probability-and-mathematical-statistics-i)| Intro to Probability and Mathematical Stat I | Math, Econ (replace Econ 310)|
 | 2020 Spring|
-| [Comp Sci 577](#comp-sci-577---introduction-to-algorithms)| Intro to Algorithms| CS|
-| [Comp Sci 564](#comp-sci-564---database-management-systems-design-and-implementation)| Dataabse Management Systems Design and Implementation| CS|
+| [CS 577](#comp-sci-577---introduction-to-algorithms)| Intro to Algorithms| CS|
+| [CS 564](#comp-sci-564---database-management-systems-design-and-implementation)| Dataabse Management Systems Design and Implementation| CS|
 | [Econ 521](#econ-521---game-theory-and-economic-analysis)| Game Theory and Economic Analysis| Econ, Math|
 | [Math 421](#math-421---the-theory-of-single-variable-calculus)| The theory of Single Variable Calculus| Math|
 | [Art 107](#art-107---introduction-to-digital-forms)| Intro to Digital Forms| Art|
 | 2020 Fall||
 | [Art 346](#art-department-346---basic-graphic-design)| Basic Graphic Design| Art|
-| [Comp Sci 537](#computer-sciences-537---introduction-to-operating-systems)| Introduction To Operating Systems| CS hardware/software|
-| [Comp Sci 639](#computer-sciences-639---building-user-interfaces)|Building User Interfaces| CS|
+| [CS 537](#computer-sciences-537---introduction-to-operating-systems)| Introduction To Operating Systems| CS hardware/software|
+| [CS 639](#computer-sciences-639---building-user-interfaces)|Building User Interfaces| CS|
 | [Econ 410](#economics-410---introductory-econometrics) | Introductory Econometrics| Econ, Math|
 | [Math 632](#mathematics-632---introduction-to-stochastic-processes)| Introduction To Stochastic Processes| Math|
-
+| [Econ 580](#economics-580---honors-tutorial-in-research-project-design)| Honors Tutorial in Research Project Design| Econ, Communication B, automatic honor|
+|[CS 559](#computer-sciences-559---computer-graphics)| Computer Graphics| CS|
+| [Econ 390](#economics-390---contemporary-economic-issues-visualization--analysis)| Contemporary Economic Issues （Visualization & Analysis）| Econ|
+| [Math 475](#mathematics-475---introduction-to-combinatorics)|Introduction To Combinatorics|Math|
+| [Art 438](#art-department-438---history-of-graphic-design-and-typography)| History Of Graphic Design And Typography| Art|
 
 
 ## ESL 113 - Essentials of Academic Reading and Writing
@@ -834,4 +838,136 @@ TA有office hour，但是我感觉这节课TA没什么存在感，甚至我是�
 总体来说我会觉得这学期的632是比较难拿A的，一个是觉得考试占比很大，第二个期中后半段有点绕，并且期末考的后半段和平时的作业难度相差很大，一个是觉得教授没有把概念说的很清楚（并且因为我自己的时间安排，所以没有凑上他上课的答疑时间，这个锅我自己背），所以理解方面多花了很多时间。
 
 后记：出成绩之后感觉教授期末可能改的比较松？或者整体curve了？不然按照大纲设定我估计得凉。
+
+## Economics 580 - Honors Tutorial in Research Project Design
+
+**Prof:** Kenneth West
+
+**材料：**教授会给handout，同时因为这节课是类似自己想课题，模型，分析，并且写paper的，所以需要自己找喜欢的方向的paper来看，没有数量上的要求。
+
+**上课方式：**实时Zoom，不提供录屏，建议开视频但是不强制。前半节课是教授会讲一些基本的研究方法，回请到之前学期的学生来讲他们当时做的课题，也会请一些学校图书馆和相关的人员来讲如何使用学校的资源找和分析数据之类的。后半节课主要是各种presentation，中间穿插着一些课被用来一对一的meeting来和教授直接讨论你想做的课题
+
+**Workload:**
+
+这门课是可以完成Communication B的要求，并且也是一节Honor的Econ课，如果要做Econ的Major in Honor需要强制上这节课和581 或者681+682来完成论文。整节课没有考试，就是类似自己找一个课题，找到一篇发表的论文作为基础，做一些修改（可以是模型方面的或者是地区方面的），然后找相关数据来分析，最后写作文。我上这门课主要是为了communication b，当时想着是如果觉得做下来挺有趣就再上581，但是后来觉得不想上了lol。
+
+整节课具体workload还可以，主要是最开始的一段对于想做的主题的介绍，三页的对作为基础的论文的分析，和最终10-15也的paper，三个assignment都有两稿，10或者12号字。要求是必须要自己找数据，有一个基于你找的论文的模型或者类似的分析，最后得到结果构成最后一篇论文。听起来是会有点复杂但是写起来就还行（至少对我来说）。我自己是会比较喜欢这种类型的论文，因为有你自己做的分析可以写， 而不是别的communication b可能更像是文献综述就比较难写东西。
+
+同时会有三个presentation，一个上限为15分钟的关于一篇你可能使用的论文的讲解，15分钟的关于你课题内容的介绍，最后一个上限25分钟关于你论文初稿里面结果的讲解。说是上限因为不用说满，大概前两篇12-14后面一篇20-23分钟就差不多。这些presentation给我的感觉和论上一段写的东西差不多，听起来的时候觉得很难，但是做起来或者讲起来觉得这些限制时间并不宽裕，也很容易讲满。
+
+**感受：**
+
+这门课给我的感觉是挺不错的，一个是教授知道的很全，也很尊重和关心学生，每次assignment之后都会分别给对大方向或者细节方面很有用的意见，包括一对一meeting的时候也会给我一种对整体逻辑清楚了很多的感觉。
+
+同时也会觉得它作为一门可以完成communication B要求的课程，工作量并不是很高，而且教授给分很合理也感觉是比较宽容的。presentation之后会有同学问你关于你课题的问题，有时候也很有用。是挺喜欢这种类型的课程，类似给你一些底线要求然后自己发挥，自由度很高，可以真的做自己想做的东西。
+
+同时就是也感受到选主题的重要，包括找数据和处理数据也会很繁杂，这种时候不得不感叹Python，pandas，numpy真的是很有用了。甚至最后还搞了一点vb的代码来吧xls弄到xlsx也是服气。但是相比起写论文来说，这种搞数据搞代码的工作可能更让我有动力一些吧，而且弄完数据之后会有很大的满足感，也会有一种这节课已经差不多结束的感觉。
+
+还有一点是对于这门课，如果是找相关模型，修改并且使用的话，410的内容会很有用。我觉得410给我了大方向的概念和逻辑说对于那些数据，使用那些模型会比较合理，包括也给了分析的基础吧。
+
+## Computer Sciences 559 - Computer Graphics
+
+**Prof:** Michael Gleicher
+
+**材料：**
+
+课程网站：CS559 Computer Graphics Spring 2021
+
+Canvas上面会发handout和相关参考书里面章节的pdf，包括每周作业的workbook里面也会有很多概念的内容。
+
+**上课方式：**
+
+Canvas BBC直播，之后可以看recording，同时教授和TA也把recording发到了Kaltura mediaspace，所以看起来比BBC更方便一些。然后使用piazza答疑
+
+**Workload:**
+
+我觉得这门课是属于想达到底线，或者达到A，相对于别的CS高阶课是会容易一些，但是如果想要做的很好，那就可以花没有上限的时间。基本每周会给一个workbook，里面有一些很有用的概念或者内容，和一些需要自己写代码来做出来的内容。
+
+每周会有一个canvas quiz或者survey，教授只关注你是不是做了，而且有个合理的分数（就不是太低一看就是随便猜的那种）就行，如果有两个以上没做的会扣分。我觉得这些quiz都挺有用的，的确会让我知道我的理解是不是对，而且和考试的内容也比较相似。
+
+这门课有两个小考和一个期末，总体来难度还行，没有特别难的点，而且教授给考试的成绩挺慷慨的，在canvas评分之后会给加一些分数，比直接按照百分比高很多。同时这门课三个小考和期末的分值是一样的，每个考试分两个canvas quiz，最后8个quiz算平均值，教授还说可能会给你最低的一个成绩加点分来防止你以为某一个主题导致整个成绩不好。
+
+**感受：**
+
+最开始的时候觉得这门课的给分很模糊，因为workbook的基本分基本没有超过90的，然后还有一些bonus，但是加上bnous也有一半的workbook到不了100分。不过好的是这门课90是A，而且像之前说的，给分还是比较慷慨的，总体的难度也还行。觉得这个教授讲得不错，但是会觉得课程的内容过得很快，依然有些不清楚，但是做了workbook之后会觉得清楚不少，也理解了不少。
+
+总体来说，这门课挺有趣的，难度也还可以，也是一门给你一个底线和基本要求，会有一些内容让你自己发挥，做自己想做的东西的课。比如说基本每个workbook，除了关于基础概念的，都有可以自己发挥来建想做的东西的部分，只不过给了要求说必须用到那些那些内容。
+
+## Economics 390 - Contemporary Economic Issues （Visualization & Analysis）
+
+**Prof:** Gregory Pac
+
+**材料：**
+
+需要的书是Now You See It: Simple Visualization Techniques for Quantitative Analysis - Stephen C. Few， ISBN: 9780970601988。不过我没买也没问题
+
+软件：Tableau 和Tableau Prep，学生帐号可以免费用。后面一两节课会用excel但是对于作业来说没必要
+
+相关的所有材料，比如handout和上课用到的数据和一些上课做的demo，都会放在canvas上面
+
+**上课方式：**Zoom直播，也会录像之后发在canvas
+
+**Workload:**
+
+总体来说比较小，毕竟是300level的经济课。这门课一共4个作业，1个final project，和一个take home final。同时每节课可能有inclass assignment，但是只要交了就行，然后一个学期有大约20个（虽然最后才18）交15个就能拿到这一块的满分。还有就是每周要交一个visualization journal，是说每天写个三五句关于你想到生活中什么内容可以做数据可视化然后可以用什么方法来做这种。
+
+作业的话大概每个需要半天或者大半天吧，内容不是很多，作业的描述会有一些含糊，但是如果问了教授，或者把自己做的东西拿去给教授看，教授会和你解释这一块到底是什么意思或者说你做的是不是他想要看到的。Final的话大概需要两三个小时吧？和作业差不多，就是多了一些概念方向的内容，但是上课都讲过，所以也比较直接。
+
+Final project的话是要自己找一个想做的方向，找数据，处理数据，然后做三个dashboard（类似三组图表？）最后写一个双行距6页，12号字的报告。算是比较好写的，因为会涉及你如何做的可视化和结果这一类做了就有很多东西可以写的内容。不过找数据和处理的过程也会有一些麻烦，所以找一个比较容易找到数据的主题会省事很多。
+
+这门课所有的作业，project，和final都是通过tableau和tableau prep，我觉得这个软件是有一个学习曲线吧，但是教授上课会做很多demo，而且做得很详细也讲得很清楚，包括这个软件可能相对于别的也是比较容易的吧。相对于R或者Python之类的做图，Tableau给我的感觉是要做一个很好看的图比编程类做出来的图容易很多，但是会受限于给的数据的结构，导致做一些图的时候可能需要花很多时间处理数据，这个过程可能比用写代码处理数据麻烦一些，同时可能更依赖电脑的配置。但是对于对写代码不熟悉的人来说会比较直接一些。
+
+**感受：**
+
+这门课总体来说还是挺喜欢的，一个是让我知道还有Tableau这个挺有趣的软件，而且这个软件对于可视化这一块来说的确比我之前用Python弄出来的好看不少。而且让我有了对于如何展示数据有了点新的理解，至少知道需要往什么地方靠和哪些方式是不合适的。
+
+我上这门课是为了达到Econ要求的30个专业学分，但是希望找一个容易一些的课来防止我workload太大。我觉得这门课的确达到了我的需求，而且的确能学到有用的东西。同时，这个教授很尊重学生，讲得也很清楚，并且因为有行业的经验，所以对行业里面需要和喜欢什么类型的图表很熟悉，对于这一块也很熟悉。总体来说，这是一门workload比较小并且的确可以学到点东西的课。
+
+## Mathematics 475 - Introduction To Combinatorics
+
+**Prof:** Mikhail Ivanov,
+
+**材料：**Intriductory Combinatorics - Richard Brualdi，ISBN: 9780136020400
+
+**上课方式：**
+
+Zoom直播，handout，recording都在学校的box里面
+
+教授也把讲义和考试发在了他的网站上面...
+
+**Workload:**
+
+我觉得这么课对于Junior？或者说已经上了不少CS或者Math的课来说是比较简单，workload比较合理的，我大概一个礼拜用一个下午加一个晚上过这周的内容和作业。我觉得它workload比较小，或者比较简单，主要是因为它涉及的内容大多都是很多我已经上过的CS或者Math课程涉及过的，类似将一些已知的方向进行总和然后再往下讲一些。包括上了几节课之后觉得自己看讲义可能会更快，因为一些内容已经知道了，所以就没怎么看课程了就直接看着讲义学了。
+
+工作量的话是基本每周一个作业，有两个期中和一个期末。对我来说，作业大概需要一个晚上，期中期末的时候会多花大半天把相关内容过一遍。算是数学400level比较正常的workload。考试的话教授说会比上学期简单一些，但是感觉第二个期和上学期差不多，期末比上学期难一些。然后教授应该是整节课curve的，会在每个考试之后发每个分数段对应的letter grade，感觉他差不多把AB线设在median。
+
+**感受：**
+
+我上这门课是为了满足数学最后一节课，选课的时候在想上这节课还是319，选了这节课因为我挺粗心，所以担心319因为各种小的细节问题翻车。
+
+觉得教授讲课还行，是有口音，但是听得懂。我后来不听只是因为对相关内容有了解，但是觉得他是有把内容讲清楚的，不过可能对于刚来的国际生，或者对于口音不太熟悉的同学来说会听得累一些。总体来说是一个比较标准的400 level的数学课吧。
+
+## Art Department 438 - History Of Graphic Design And Typography
+
+**Prof:** Dennis Miller
+
+材料：书是Graphic Design: A New History - Stephen Eskilson，ISBN:9780300233285
+
+**上课方式：**
+
+这学期是不实时的课程，所以教授会在周一把视频和这周的内容发在canvas上面
+
+**Workload:**
+
+这节课每周要发一个discussion post和一个回帖，同时有一篇300字左右对于本周涉及到的一件你感兴趣的艺术品的小作文。这两个内容感觉教授的要求不是很高，基本上只要他列出来的点都达到了就能满分。除了考试周，每周可能需要一个下午来看视频，写discussion和小作文吧。（不过这节课视频真的长，每周都差不多3-4个小时）
+
+然后是一个期中，一个期末。期末不accumulate，所以期中期末分别考这学期前半段和后半段的内容。每个考试是10个识别题，5个小作文和10个选择题，是闭卷的，会用honorlock。识别题除了艺术品名称和作者之外还需要描述他的作用和重要性，算是一个小型的小作文吧。教授会给一个study list，然后考题全在这个list里面出。这个list真的是很良心了，期中基本是3选1的范围，期末识别和选择类似三选一，小作文是二选一。但是不得不说，要弄完这个list并且背出来也得花很多时间。具体多少时间可能因人而异吧。对我来说两次考试都花了差不多两天半来弄study list，背，和考。期中考的评分比我想的宽松一些，感觉是他有一个列表，最重要的答到了就行。
+
+最后还有一篇1500-2000的论文，是自己选一个喜欢的艺术家，分析他的艺术手法以及对graphic design的重要性这种，差不多需要大半天写完，然后再多一些时间过一遍和查语法词汇这总。
+
+**感受：**
+
+这节课感觉总体来说还是符合3分的workload的，但是考试和写论文的时候还是有点折腾。感觉教授有在努力地讲清楚内容，并且把上课的视频分part，但是因为视频很长，并且涉及的内容很多，语速比较快，还不给上课用的handout，导致我看视屏的时候一直在截屏，标注，也挺容易迷失不知道讲到那里的。（这个时候要夸一下notion，本来是用typora来记截屏的，但是太多了导致我的电脑卡了，于是最终只能用notion了）我其实挺庆幸这门课是线上的，所以可以自己调节速度，如果线上的话我可能不知道怎么才能跟得上了。不过，虽然听讲课很容易迷失，不可否认的是他讲得很全，很详细，的确听完之后会对这一块的历史有更多的理解。
+
+教授给我的感觉也是他很尊重学生，知道的真的很多，也会有一些老学究的感觉。他每个discussion后面都会发自己的看法，而且有些看法会涉及他自己的经历，和对学生之后在art这一块可能经历什么以及如何面对事情的一些看法。对于每周的小作文也都会根据我们写的艺术品发相关的推荐的内容，比如说对于这个作家还可以通过那些书，那些视频来了解他，或者这个艺术品在哪里可以看到，那里有资源可以知道更多这种。还有最后写论文的时候他先给了一个时间节点让我们定好主题，写一小段话，发一个discussion，然后他一个个来回复说可以通过什么什么渠道来了解设计师或者艺术家。甚至最后期末之后他还发了好长一个他这一年看的书的书单，并且也有一些短的评论。就会觉得这节课是教授对我们期望值很高，而且是努力学了之后的确会知道很多的一节课。
 
