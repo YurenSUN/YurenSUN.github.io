@@ -3,6 +3,10 @@ This is the css format for home.html
 Author: Yuren Sun
 */
 
+body {
+    font-family: "Times New Roman" !important;
+}
+
 
 /*  box and containers */
 
@@ -13,7 +17,6 @@ Author: Yuren Sun
     line-height: 150%;
     margin: 0;
     align-content: center;
-    font-family: "Times New Roman";
     font-size: 20px;
     overflow: hidden;
     /* fix position */
@@ -31,15 +34,9 @@ Author: Yuren Sun
     margin: 0;
 }
 
-.left_container {
-    /* background-color: red; */
-    margin: 20% 10%;
-}
-
 .right {
     width: 70%;
     height: 100%;
-    /* background-color: #f00; */
     float: right;
     overflow: scroll;
     text-align: left;
@@ -55,12 +52,6 @@ Author: Yuren Sun
 
 .personal_img {
     width: 70%;
-}
-
-.project_img {
-    width: 30%;
-    max-width: 250px;
-    float: left;
 }
 
 .icon-box {
@@ -82,43 +73,11 @@ Author: Yuren Sun
 
 
 /* texts */
-
-.name {
-    font-family: "Times New Roman";
-    font-weight: bold;
-    font-size: 40px;
-    margin: 4% 0;
-}
-
 .right_header {
-    font-family: "Times New Roman";
-    /* font-weight: bold; */
     color: gray;
-    font-size: 25px;
-    margin: 2% auto;
 }
 
-.title {
-    font-family: "Times New Roman";
-    font-weight: bold;
-    font-size: 22px;
-    float: left;
-}
-
-.position {
-    float: left;
-}
-
-.time {
-    float: right;
-}
-
-.location {
-    font-family: "Times New Roman";
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 40px;
-}
+/* Links */
 
 .right_container a:link {
     /* color for links */
@@ -127,7 +86,7 @@ Author: Yuren Sun
 }
 
 .right_container a:visited {
-    color: #185888;
+    color: #126bae;
 }
 
 .right_container a:hover {
@@ -139,16 +98,17 @@ Author: Yuren Sun
     color: #185888;
 }
 
-.left_container .copyright {
+/* Copy right */
+
+.copyright {
     position: relative;
     bottom: 0px;
     color: gray;
-    font-weight: light;
-    font-size: 10px;
 }
 
-.left_container .copyright p{
-    margin: 0 auto;
+.copyright p{
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -167,30 +127,4 @@ Author: Yuren Sun
     margin: 60px auto;
     width: 80%;
     color: #987cb9;
-}
-
-
-/* menu */
-
-.menu {
-    display: inline-block;
-    position: sticky;
-    top: 0;
-    background-color: #f4efea;
-    height: max-content;
-    /* max-height: max-content; */
-    width: 100%;
-}
-
-.menu_container {
-    padding: 10px 2%;
-}
-
-.menu_container a {
-    display: inline-block;
-    color: rgb(94, 92, 92);
-    font-size: 25px;
-    line-height: 25px;
-    margin: 5px 30px 5px 0;
-    text-decoration: none;
 }
