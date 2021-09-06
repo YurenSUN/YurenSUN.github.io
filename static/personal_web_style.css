@@ -1,10 +1,11 @@
 /*
-This is the css format for home.html
+This is the css format for index.html
 Author: Yuren Sun
+Feel free to use this website as a template but please document the source.
 */
 
 body {
-    font-family: "Times New Roman" !important;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 
@@ -101,14 +102,14 @@ body {
 /* Copy right */
 
 .copyright {
-    position: relative;
-    bottom: 0px;
     color: gray;
+    line-height: normal;
 }
 
-.copyright p{
+.copyright div{
     margin: 0;
     padding: 0;
+    line-height: normal;
 }
 
 
