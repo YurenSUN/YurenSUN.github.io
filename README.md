@@ -1,4 +1,4 @@
 # YurenSUN.github.io
-The personal website on Github to be consructed
+The personal website on Github
 
-Will add backup of blogs on Zhihu to this repo
+https://yurensun.github.io/
