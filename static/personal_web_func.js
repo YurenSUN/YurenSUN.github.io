@@ -1,6 +1,7 @@
 var navBarShown = false;
 
 function changeNavVisibility(){
+  // Swift the navbar visibility between shown and hiden.
   let navBar = document.getElementById("navbarNavDropdown");
   if (!navBarShown){
     navBar.style.display = "block";
@@ -12,6 +13,7 @@ function changeNavVisibility(){
 }
 
 function screenChangeNavVisibility(){
+  // Hide navbar by clicking anywhere of the screen.
   let navBar = document.getElementById("navbarNavDropdown");
   if (navBarShown){
     navBar.style.display = "none";
@@ -19,5 +21,5 @@ function screenChangeNavVisibility(){
   navBarShown = false;
 }
 
-// Click anywhere to change visibility
+// Hide navbar by clicking anywhere of the screen.
 document.body.addEventListener('click', screenChangeNavVisibility, true); 
