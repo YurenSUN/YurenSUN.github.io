@@ -12,45 +12,74 @@
   <title>Yuren Sun</title>
   <link rel="icon" href="photo/handdrawn-with-bg.png" type="image/png">
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="static/personal_web_style.css">
   <script defer src="static/personal_web_func.js"></script>
+  <!-- Include projects to the main page -->
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script>
+    $(function () {
+      $("#research-content").load("research.html");
+      $("#work-content").load("work.html");
+      $("#teach-pre-content").load("teach-pre.html");
+      $("#projects-content").load("projects.html");
+      $("#service-content").load("service.html");
+      $("#icons-content").load("icons.html");
+      $("#icons-invert-content").load("icons.html");
+    });
+  </script>
 </head>
 
 <body>
   <!-- nav bar -->
-  <div class="container-fluid d-flex m-0 p-0 sticky-top" style="height: max-content;">
-    <div class="navbar navbar-expand-lg navbar-dark navbar-inner primary-bg w-100 py-0" style="width: max-content;">
+  <div class="container-fluid d-flex m-0 p-0 sticky-top"
+    style="height: max-content;">
+    <div
+      class="navbar navbar-expand-lg navbar-dark navbar-inner primary-bg w-100 py-0"
+      style="width: max-content;">
       <a class="navbar-brand" href="#">
-        <img class="mr-1" src="photo/handdrawn-no-bg.png" height="50" alt="hand-drawn icon">
+        <img class="mr-1" src="photo/handdrawn-no-bg.png" height="50"
+          alt="hand-drawn icon">
         <img src="photo/name-icon.svg" class="invert-icon" height="35" alt="">
       </a>
-      <button class="navbar-toggler" onclick="changeNavVisibility()" style="border: 0;">
+      <button class="navbar-toggler" onclick="changeNavVisibility()"
+        style="border: 0;">
         <img src="photo/menu.png" class="invert-icon" height="30">
       </button>
       <div class="collapse navbar-collapse ml-0" id="navbarNavDropdown">
         <ul class="container navbar-nav pt-1 d-flex justify-content-end">
           <li class="nav-item">
-            <h5><a class="nav-link" href="#about">About Me<span class="sr-only">(current)</a></h5>
+            <h5><a class="nav-link" href="#about">About Me<span
+                  class="sr-only">(current)</a></h5>
           </li>
           <li class="nav-item">
-            <h5><a class="nav-link" href="#publication">Publication<span class="sr-only">(current)</a></h5>
+            <h5><a class="nav-link" href="#publication">Publication<span
+                  class="sr-only">(current)</a></h5>
           </li>
           <li class="nav-item">
-            <h5><a class="nav-link" href="#research">Research<span class="sr-only">(current)</a></h5>
+            <h5><a class="nav-link" href="#research">Research<span
+                  class="sr-only">(current)</a></h5>
           </li>
           <li class="nav-item">
-            <h5><a class="nav-link" href="#work">Works<span class="sr-only">(current)</a></h5>
+            <h5><a class="nav-link" href="#work">Works<span
+                  class="sr-only">(current)</a></h5>
           </li>
           <li class="nav-item">
-            <h5><a class="nav-link" href="#projects">Projects<span class="sr-only">(current)</a></h5>
+            <h5><a class="nav-link" href="#teaching-presentation">Teaching and
+                Persentations<span class="sr-only">(current)</a></h5>
           </li>
           <li class="nav-item">
-            <h5><a class="nav-link" href="#teaching-presentation">Teaching and Persentations<span class="sr-only">(current)</a></h5>
+            <h5><a class="nav-link" href="#projects">Projects<span
+                  class="sr-only">(current)</a></h5>
           </li>
           <li class="nav-item">
-            <h5><a class="nav-link" href="#services">Services<span class="sr-only">(current)</a></h5>
+            <h5><a class="nav-link" href="#services">Services<span
+                  class="sr-only">(current)</a></h5>
           </li>
         </ul>
       </div>
@@ -58,7 +87,8 @@
   </div>
 
   <!-- Front page -->
-  <div class="container-fluid primary-bg d-flex flex-column justify-content-center align-items-center vh-100 vw-100 m-0 p-0">
+  <div
+    class="container-fluid primary-bg d-flex flex-column justify-content-center align-items-center vh-100 vw-100 m-0 p-0">
     <div class="col-8">
       <div id="name-front-page"></div>
     </div>
@@ -69,17 +99,20 @@
   <!-- About me -->
   <section id="about">
     <div class="container-fluid secondary-bg align-items-center">
-      <div class="row d-flex justify-content-center align-items-center py-3" style="min-height: 100%;">
+      <div class="row d-flex justify-content-center align-items-center py-3"
+        style="min-height: 100%;">
         <!-- Left -->
         <div class="col-4">
           <!-- My photo -->
-          <img src="photo/yuren_photo.jpg" alt="yuren_photo" class="personal_img">
+          <img src="photo/yuren_photo.jpg" alt="yuren_photo"
+            class="personal_img">
           <h1 class="mt-1"><strong>Yuren Sun | 孙钰仁</strong></h1>
 
           <div>Stanford University</div>
           <div>Master of Science (Expected June 2024)</div>
           <div>Pronouns: she/her</div>
-          <div><a href="https://namedrop.io/yurensun" target="_blank" title=“”>Name pronunciation</a> </div>
+          <div><a href="https://namedrop.io/yurensun" target="_blank"
+              title=“”>Name pronunciation</a> </div>
           <div>yurensun [at] stanford [dot] edu</div>
 
         </div>
@@ -88,21 +121,42 @@
         <div class="col-6 align-items-center">
           <h1 class="section-header">About Me</h1>
           <p>
-            I am a first-year Master student in Computer Science at Stanford University. I received my BS degree at <a href="https://www.wisc.edu/" target="_blank" title=“”>University of Wisconsin-Madison</a> in Computer Sciences, Economics, and Mathematics.
+            I am a first-year Master student in Computer Science at <a
+              href="https://www.stanford.edu/" target="_blank" title=“”>Stanford
+              University</a>. I received my BS degree at <a
+              href="https://www.wisc.edu/" target="_blank" title=“”>University
+              of Wisconsin-Madison</a> in Computer Sciences, Economics, and
+            Mathematics.
           </p>
           <p>
-            I am interested in database systems and data of any kinds with their application, especially with machine learning, to other fields, such as Ecology, Conservation, and Biology, to try to solve challenging problems. I applied the analysis of acoustic data into the research of the marine ecosystem. I work on the applications of neural network models in the classifications of animals and pseudomonas sequence data.
+            I am interested in database systems and data of any kinds with their
+            application, especially with machine learning, to other fields, such
+            as Ecology, Conservation, and Biology, to try to solve challenging
+            problems. I applied the analysis of acoustic data into the research
+            of the marine ecosystem. I work on the applications of neural
+            network models in the classifications of animals and pseudomonas
+            sequence data.
           </p>
           <p>
-            Check out some of my Chinese blogs migrated from Zhihu <a href="https://yurensun.gitbook.io/blogs/" target="_blank">here</a>.
+            During my Undergraduate study, I had the opportunity to utilize
+            Machine Learning in the research on the rainforest biodiversity for
+            the project “Stethoscope for the Rainforest” in the <a
+              href="https://www.soundforestlab.org/" target="_blank">Sound
+              Forest Lab</a> with professor
+            <a href="https://www.soundforestlab.org/zuzana"
+              target="_blank">Zuzana Burivalova</a>, collaborating with
+            professor <a href="https://wid.wisc.edu/people/claudia-solis-lemus/"
+              target="_blank">Claudia Solis Lemus</a> and professor <a
+              href="https://wid.wisc.edu/people/daniel-pimentel-alarcon/"
+              target="_blank">Daniel Pimentel Alarcon</a>. Currently, I am
+            applying Machine Learning to frog audio detection.
           </p>
-          <div class="icon-row mt-5">
-            <a href="https://github.com/YurenSUN/" target="_blank" title=“Link to Github” class="icon-box"><img src="photo/github-icon.png" class="icon"></a>
-            <a href="https://www.linkedin.com/in/yurensun/" target="_blank" title=“Link to Linkedin” class="icon-box"><img src="photo/linkedin-icon.png" class="icon"></a>
-            <a href="https://www.behance.net/yurenSUN" target="_blank" title="" class="icon-box"><img src="photo/behance-icon.png" class="icon"></a>
-            <a href="https://www.instagram.com/yurensun/" target="_blank" title="" class="icon-box"><img src="photo/ins-icon.png" class="icon"></a>
-            <a href="https://www.zhihu.com/people/sun-yu-ren-94/posts" target="_blank" title="" class="icon-box"><img src="photo/zhihu-icon.png" class="icon"></a>
-            <a href="Yuren_Sun_Resume.pdf" target="_blank" title="" class="icon-box"><img src="photo/cv-icon.png" class="icon"></a>
+          <p>
+            Check out some of my Chinese blogs migrated from Zhihu <a
+              href="https://yurensun.gitbook.io/blogs/"
+              target="_blank">here</a>.
+          </p>
+          <div class="icon-row mt-5" id="icons-content">
           </div>
         </div>
       </div>
@@ -117,8 +171,14 @@
       <h1 class="section-header">Publication</h1>
       <!-- tropical stethoscope -->
       <div class="">
-        <div><strong>Sun, Y.</strong>, Maeda, T. M., Solis-Lemus, C., Pimentel-Alarcon, D., & Burivalova, Z. (2022). Classification of animal sounds in a
-          hyperdiverse rainforest using convolutional neural networks with data augmentation. Ecological Indicators, vol. 145, 2022, p. 109621., <a href="https://doi.org/10.1016/j.ecolind.2022.109621" target="_blank">https://doi.org/10.1016/j.ecolind.2022.109621</a></div>
+        <div><strong>Sun, Y.</strong>, Maeda, T. M., Solis-Lemus, C.,
+          Pimentel-Alarcon, D., & Burivalova, Z. (2022). Classification of
+          animal sounds in a
+          hyperdiverse rainforest using convolutional neural networks with data
+          augmentation. Ecological Indicators, vol. 145, 2022, p. 109621., <a
+            href="https://doi.org/10.1016/j.ecolind.2022.109621"
+            target="_blank">https://doi.org/10.1016/j.ecolind.2022.109621</a>
+        </div>
       </div>
     </div>
 
@@ -130,93 +190,9 @@
   <section id="research">
     <div class="container-fluid secondary-bg align-items-center col-10">
       <h1 class="section-header">Research</h1>
-      <!-- Frog neural network -->
-      <div class="mb-4 ">
-        <h4 class="font-weight-bold ">Frog Audio Detection</h4>
-        <div class="mb-2">
-          <div>University of Wisconsin – Madison, Madison, WI</div>
-          <div>September 2022 – Present</div>
-        </div>
-        <ul>
-          <li>Collect and process the dataset of 5 frogs for around 500 samples and different background sounds from audios of interested sites</li>
-          <li>Utilize convolutional neural networks with data augmentation to classify the frogs based on their sounds with TensorFlow</li>
-          <li>Develop pipeline to process the audio data and detect the occurrences of different frogs in the recordings of two years</li>
-        </ul>
-      </div>
-
-      <!-- DNA neural netwoek -->
-      <div class="mb-4 ">
-        <h4 class="font-weight-bold "><a class="font-weight-bold" href="https://github.com/solislemuslab/dna-nn" target="_blank ">DNA Neural Network</a></h4>
-        <div class="mb-2">
-          <div>University of Wisconsin – Madison, Madison, WI</div>
-          <div>September 2021 – March 2022</div>
-        </div>
-        <ul>
-          <li>Utilized convolutional and recurrent neural networks to classify and regress the pseudomonas sequence data with Python and TensorFlow</li>
-          <li>Developed data augmentation methods, such as using reverse complement DNA and sequence simulation, to improve the performance of model</li>
-        </ul>
-      </div>
-
-      <!-- Machenism Design -->
-      <div class="mb-4 ">
-        <h4 class="font-weight-bold ">Mechanism Design For Pricing And Refund Strategy</h4>
-        <div class="mb-2">
-          <div>University of Wisconsin – Madison, Madison, WI</div>
-          <div>January 2021 – December 2021</div>
-        </div>
-        <ul>
-          <li>Researched on the implementations of option menus for deterministic and randomized pricing and refund strategies</li>
-          <li>Compared the optimized revenue of simple and randomized pricing and refund mechanism with that of general augmented auctions for multi-item mechanism</li>
-          <li>Compared and computed the gaps among the optimal revenues of single price, full refund, two-point refund, deterministic single refund, single refund schedule, and choices of refund schedules mechanisms</li>
-        </ul>
-      </div>
-
-      <!-- Tropical Stethoscope -->
-      <div class="mb-4">
-        <h4> <a class="font-weight-bold" href="https://github.com/solislemuslab/tropical-stethoscope " target="_blank ">Stethoscope for the Rainforest</a></h4>
-        <div class="mb-2">
-          <div>Wisconsin Institute for Discovery, University of Wisconsin – Madison, Madison, WI</div>
-          <div>January 2020 – February 2022</div>
-        </div>
-
-        <ul>
-          <li>Created the spectrogram dataset of about 3800 instances for approximately 440 animals based on labeled recordings of the rainforests</li>
-          <li>Utilized conventional neural networks to classify the animals based on the frequencies, occurrence times, and patterns of their sounds</li>
-          <li>Improved the performance of classifications with transfer learning and data augmentation</li>
-          <li>Researched on the minimum number of samples required to classify multiple animals by experimenting on classifications among animals in the sample sets of different sizes</li>
-        </ul>
-      </div>
-
-      <!-- Wild YEAST -->
-      <div class="mb-4 ">
-        <h4 class="font-weight-bold ">Wild YEAST (Yeast Exploration and Analysis Science Team)</h4>
-        <div class="mb-2">
-          <div>Hittinger Lab, University of Wisconsin – Madison, Madison, WI</div>
-          <div>September 2019 – December 2019</div>
-        </div> 
-        <div class="mb-2">
-          <li>Developed pipelines to access genome qualities, extract specific genes, assemble the genome, and build phylogenetic trees</li>
-          <li>Developed a database to store DNA barcode data and the results from preliminary analyses</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Singapore -->
-      <div>
-        <h4 class="font-weight-bold ">Automatic Feature Extraction from Acoustic Recordings to Detect Events of Interest</h4>
-        <div class="mb-2">
-          <div>Acoustic Research Lab, National University of Singapore, Singapore</div>
-          <div>May 2019 - July 2019</div>
-        </div>
-        <ul>
-          <li>Detected features from long‐term acoustic recordings obtained in Singapore water through isolating out outlier sounds in spectrograms by envelope-based methods with Python</li>
-          <li>Processed data with time length around 40 minutes and accomplished extractions of features and descriptors with the low soundto-noise ratio around -5 to 0 dB</li>
-        </ul>
-      </div>
-
+      <div id="research-content"></div>
     </div>
   </section>
-
 
   <HR class="break">
 
@@ -224,211 +200,7 @@
   <section id="work">
     <div class="container-fluid secondary-bg align-items-center col-10">
       <h1 class="section-header">Works</h1>
-
-      <!-- AWS -->
-      <div class="mb-4 ">
-        <h4 class="font-weight-bold ">Software Development Engineer Intern</h4>
-        <div class="mb-2">
-          <div>Amazon Web Services, East Palo Alto, CA</div>
-          <div>June 2021 – September 2021</div>
-        </div>
-        <ul>
-          <li>Designed and implemented a project for local reproductions on non-data dependent issues to improve debugging abilities for Redshift</li>
-          <li>Created catalog functions to extract names of both local and external tables and views from queries and trace down dependencies of views with C</li>
-          <li>Developed the pipeline to retrieve the data definition languages from query texts with automatic dependency tracking</li>
-          <li>Developed broad tests on the feasibility of functionalities and coverages of edge cases</li>
-        </ul>
-      </div>
-
-      <!-- Amfam -->
-      <div>
-        <h4 class="font-weight-bold ">Innovations Intern</h4>
-        <div class="mb-2">
-          <div>American Family Insurance, Madison, WI</div>
-          <div>May 2020- August 2020</div>
-        </div>
-        <ul>
-          <li>Developed the prototypes and the minimum viable products (MVPs) with HTML, JavaScript, and CSS</li>
-          <li>designed the user interface based on the target customers to improve user experience; refined them with feedbacks from more than 100 user interviews
-          </li>
-          <li>Deployed the prototypes and the MVPs with Amazon Web Services (AWS) S3 Buckets and CloudFront Distributions; Developed serverless web applications with Amazon API Gateway (RESTful API), AWS Lambda and Amazon DynamoDB</li>
-          <li>Managed AWS resources as code with Terraform to enhance the workflow for the team</li>
-          <li>Automated the source code delivery to AWS resources from Github repository with CI/CD pipelines</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <HR class="break">
-
-  <!-- Projects -->
-  <section id="projects">
-    <div class="container-fluid secondary-bg align-items-center col-10">
-      <h1 class="section-header">Projects</h1>
-
-      <!-- ankle sensor -->
-      <div class="mb-4 ">
-        <h4 class="font-weight-bold"><a class="font-weight-bold " href="https://www.youtube.com/watch?v=Ei4LR0-7d6Q&t=18s" target="_blank ">Smart Ankle Sensor</a></h4>
-        <div class="mb-2">
-          <div>September 2021 - December 2021</div>
-        </div>
-        <ul>
-          <li>Projects developed during the course Wearable Technology, taken in 2021 Fall</li>
-          <li>The material lists, project progress, and related codes can be accessed from <a href="https://github.com/YurenSUN/smart-ankle-sensor" target="_blank">github</a></li>
-          <li>Enhanced ankle braces by using sensors to track movements and sending sensor data to phone with Arduino Nano 33 BLE through Bluetooth</li>
-          <li>Developed an iOS application to read the sensor data from Bluetooth and notify users when the data are above the thresholds defined by users as to avoid further injury from sprains with Swift</li>
-        </ul>
-      </div>
-
-      <!-- graphics -->
-      <div class="mb-4 ">
-        <h4 class="font-weight-bold"><a class="font-weight-bold " href="https://yurensun.github.io/Computer-Graphics-Projects/" target="_blank ">Computer Graphics Projects</a></h4>
-        <div class="mb-2">
-          <div>January 2021 - May 2021</div>
-        </div>
-        <ul>
-          <li>Projects developed during the course Computer Graphics, taken in 2021 Spring</li>
-          <li>Including a graphic town, a pokemon ball, a poker card, a castle, fireworks, flipping dots, flying boids, quadcopters, trains, museum objects, a construction site, buildings, cars, and some patterns</li>
-        </ul>
-      </div>
-
-      <!-- dialogflow agent -->
-      <div class="mb-4 ">
-        <h4 class="font-weight-bold  ">WiscShop Dialogflow</h4>
-        <div class="mb-2">
-          <div>December 2020</div>
-        </div>
-        <ul>
-          <li>Project developed during the course Building User Interfaces, taken in 2020 Fall</li>
-          <li>Developed a dialogflow agent on Google dialogflow platform to help users work with the WiscShop interface</li>
-          <li>Implemented webhook functions to help users log in, get information about categories, products, cart, and tags, edit and check out the cart, and navigate to different pages with the dialogflow agent</li>
-        </ul>
-      </div>
-
-      <!-- page replacement simulator -->
-      <div class="mb-4">
-        <h4 class="font-weight-bold ">Page Replacement Simulator</h4>
-        <div class="mb-2">
-          <div>November 2020 - December 2020</div>
-        </div>
-        <ul>
-          <li>Project developed during the course Introduction to Operating Systems, taken in 2020 Fall</li>
-          <li>Designed and implemented the project to read the trace files with over 10 million traces, create the process table as a hash table, and simulate the scheduling process of the traces with linked lists and hash tables with C in Linux environment</li>
-          <li>Simulated the page replacement processes with FIFO, LRU and Clock algorithms, and kept track of various performance statistics</li>
-          <li>Collaborated with Jiaru (Kathrine) Fu</li>
-        </ul>
-      </div>
-
-      <!-- fitness tracker -->
-      <div class="mb-4">
-        <h4 class="font-weight-bold ">Fitness Tracker</h4>
-        <div class="mb-2">
-          <div>November 2020</div>
-        </div>
-        <ul>
-          <li>Project developed during the course Building User Interfaces, taken in 2020 Fall</li>
-          <li>Designed and implemented an ios application that helps users track data for their exercises and meals with React Native</li>
-          <li>Provides functions to sign up, sign in, edit profile and goals, record meals and exercises, and compare the recorded data with goals</li>
-          <li>Enabled the accessibalitity functions for users with visual disabilities by narrating descriptions for each component with voice-over</li>
-        </ul>
-      </div>
-
-      <!-- makefile -->
-      <div class="mb-4">
-        <h4 class="font-weight-bold ">Makefile Executor</h4>
-        <div class="mb-2">
-          <div>November 2020 - December 2020</div>
-        </div>
-        <ul>
-          <li>Project developed during the course Introduction to Operating Systems, taken in 2020 Fall</li>
-          <li>The program reads the makefile, validates the commands with dependency graph, and execute the valid commands, coded with C</li>
-          <li>Collaborated with Jiaru (Kathrine) Fu</li>
-        </ul>
-      </div>
-
-      <!-- course search -->
-      <div class="mb-4">
-        <h4 class="font-weight-bold ">Course Search App</h4>
-        <div class="mb-2">
-          <div>October 2020</div>
-        </div>
-        <ul>
-          <li>Project developed during the course Building User Interfaces, taken in 2020 Fall</li>
-          <li>A web application simulating the course search application developed with React and bootstrap</li>
-          <li>Provides functions for users to view and filter courses, add courses to the cart, check requisties, rate a course, and check recommendations</li>
-        </ul>
-      </div>
-
-      <!-- threads -->
-      <div class="mb-4">
-        <h4 class="font-weight-bold ">Shared Memory Producer/Consumer Program</h4>
-        <div class="mb-2">
-          <div>November 2020 - December 2020</div>
-        </div>
-        <ul>
-          <li>Project developed during the course Introduction to Operating Systems, taken in 2020 Fall</li>
-          <li>The project is not allowed to be stored in a public repo, but I can provide codes if needed</li>
-          <li>It runs in parallel on Linux using threads (pthreads) and monitor synchronization and is coded with C</li>
-          <li>The program simulates the process to read from the producer, parses and modifies the information, and output to the consumer.</li>
-          <li>Collaborated with Jiaru (Kathrine) Fu</li>
-        </ul>
-      </div>
-
-      <!-- badger db -->
-      <div class="mb-4">
-        <h4 class="font-weight-bold ">Badger Database</h4>
-        <div class="mb-2">
-          <div>March 2020 - April 2020</div>
-        </div>
-        <ul>
-          <li>Project developed during the course Database Management Systems: Design and Implementation, taken in 2020 Spring</li>
-          <li>The project contains two parts and is coded with C++.</li>
-          <li><a href="https://github.com/YurenSUN/BadgerDB " target="_blank " title=“”>The first part </a>implemented a database buffer pool to hold pages that have been read from disk into memory with Clock algorithm for buffer replacement policy</li>
-          <li><a href="https://github.com/JiaruFu/Btree " target="_blank " title=“”>The second part </a> implemented an integer B+ tree index that simulated the process to store, get, and delete the data in files on disk</li>
-          <li>Collaborated with Jiaru (Kathrine) Fu and Tambre Hu</li>
-        </ul>
-      </div>
-
-      <!-- wiSign -->
-      <div class="mb-4">
-        <h4><a class="font-weight-bold " href="https://github.com/Szhang577/WiSign " target="_blank ">WiSign</a></h4>
-        <div class="mb-2">
-          <div>December 2019</div>
-        </div>
-        <ul>
-          <li>Project created during 2019 MadHack</li>
-          <li>Designed and implemented an iOS application that helps American Sign Language(ASL) users and learners get start with ASL</li>
-          <li>Provided functions to help users learn the basic 26 alphabets and know how they decode fingerspelling in ASL by taking quizzes, and familiarize them with fingerspelling thorough reviewing quizzes </li>
-          <li>Collaborated with Harry Zhao and Siyuan Zhang</li>
-        </ul>
-      </div>
-
-      <!-- quiz generator -->
-      <div class="mb-4">
-        <h4 class="font-weight-bold ">Quiz Generator</h4>
-        <div class="mb-2">
-          <div>April 2019 - May 2019</div>
-        </div>
-        <ul>
-          <li>Project developed during the course Programming Ⅲ, taken in 2019 Spring</li>
-          <li>Designed and implemented a program with graphic user interface that allows the users to add problems, generate quizes, take quizes, and view quiz scores, load quiz problems from a JSON file, and save the added problems to a JSON file with Java</li>
-          <li>Developed JUnit test classes to test the utility functions against edge cases and errors</li>
-          <li>Collaborated with Hongrui Chen, Shu Liu, and Shuo He</li>
-        </ul>
-      </div>
-
-      <!-- package manager -->
-      <div class="mb-4">
-        <h4><a class="font-weight-bold " href="https://github.com/YurenSUN/DataStructure-In-Java/tree/master/P4_Graph " target="_blank ">Package Manager</a></h4>
-        <div class="mb-2">
-          <div>March 2019 - April 2019</div>
-        </div>
-        <ul>
-          <li>Project developed during the course Programming Ⅲ, taken in 2019 Spring</li>
-          <li>Implemented a program to read data of software packages and their dependencies from JSON files, build a generic dependency graph based on the data, check cycles before the installation, and simulate the package installation process with Java</li>
-          <li>Developed JUnit test classes to test the utility functions against edge cases and errors</li>
-        </ul>
-      </div>
+      <div id="work-content"></div>
     </div>
   </section>
 
@@ -438,58 +210,19 @@
   <section id="teaching-presentation">
     <div class="container-fluid secondary-bg align-items-center col-10">
       <h1 class="section-header">Teaching and Presentations</h1>
-      <!-- CS 148 -->
-      <div class="mb-2">
-        <strong>Fall 2022, September 2022 to December 2022</strong> 
-        <div>Course Assistant for Comp Sci 148 Introduction to Computer Graphics and Imaging (Blender and Python)</div>
-      </div>
-
-      <!-- CS 571 -->
-      <div class="mb-2">
-        <strong>Fall 2021, September 2021 - December 2021 </strong> 
-        <div>Peer Mentor (with same responsibilities as teaching assistants) for Comp Sci 571 - Building User Interfaces (React, JavaScript, HTML, and CSS)</div>
-      </div>
-
-      <!-- PBS -->
-      <div class="mb-2">
-        <strong>October 21, 2021</strong>
-        <div>I talked about how to use computatoinal models to hlep biologists and ecologists analyze data in the <a href="https://pbswisconsineducation.org/lab/data-decoders/" target="_blank ">Meet the Lab event at PBS Wisconsin Education</a>.</div>
-      </div>
-
-
-      <!-- Presentation women in stat -->
-      <div class="mb-2">
-        <strong>October 8, 2021</strong>
-        <div>I presented in the poster and speed session in <a href="https://ww2.amstat.org/meetings/wsds/2021/onlineprogram/AbstractDetails.cfm?AbstractID=309921" target="_blank ">Women in Statistics and Data Science Conference</a> about the manuscript "Classification
-          of animal sounds in a hyperdiverse rainforest using Convolutional Neural Networks."</div>
-      </div>
-
-      <!-- WACM Linux -->
-      <div class="mb-2">
-        <strong>September 23, 2021</strong>
-        <div>I taught one of the workshops for <a href="https://wacm.cs.wisc.edu/events.html" target="_blank">WACM Explains: Linux Workshop</a>. (WACM has traditionally helped all CS students to be more prepared for their introductory CS courses by holding this workshop that walk through some of the basic Linux commands.)</div>
-      </div>
-
-      <!-- CS 537 -->
-      <div class="mb-2">
-        <strong>Spring 2021, January 2021 - May 2021 </strong> 
-        <div>Peer Mentor (holding office hours) for Comp Sci 537 - Introduction to Operating Systems (C in Linux)</div>
-      </div>
-
-      <!-- WACM Linux -->
-      <div class="mb-2">
-        <strong>February 15, 2021</strong>
-        <div>I taught one of the workshops for <a href="https://wacm.cs.wisc.edu/events.html" target="_blank">WACM Explains: Linux Workshop</a>. (WACM has traditionally helped all CS students to be more prepared for their introductory CS courses by holding
-          this workshop that walk through some of the basic Linux commands.)</div>
-      </div>
-
-      <!-- DS bazaar -->
-      <div class="mb-2">
-        <strong>February 3, 2021</strong>
-        <div>I presented some primary results in the lightning talks at <a href="https://datascience.wisc.edu/2021-data-science-research-bazaar/" target="_blank">Data Science Research Bazaar at UW - Madison</a>.</div>
-      </div>
+      <div id="teach-pre-content"></div>
     </div>
 
+  </section>
+
+  <HR class="break">
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container-fluid secondary-bg align-items-center col-10">
+      <h1 class="section-header">Projects</h1>
+      <div id="projects-content"></div>
+    </div>
   </section>
 
   <HR class="break">
@@ -498,64 +231,22 @@
   <section id="services">
     <div class="container-fluid secondary-bg align-items-center col-10">
       <h1 class="section-header">Services</h1>
-      <!-- WACM -->
-      <div class="mb-4">
-        <h4 class="font-weight-bold "><a href="https://wacm.cs.wisc.edu/" target="_blank">UW - Madison Chapter of Association for Computing Machinery – Women</a></h4>
-        <div class="mb-2">
-          <div>University of Wisconsin – Madison, Madison, WI</div>
-          <div class="d-flex justify-content-between align-self-center">
-            <div>Activities Co-Chair</div>
-            <div>January 2020 - Present</div>
-          </div>
-          <div class="d-flex justify-content-between align-self-center">
-            <div>Undergraduate Representative</div>
-            <div class="text-right">September 2019 – December 2019</div>
-          </div>
-          <div class="d-flex justify-content-between align-self-center">
-            <div>Member</div>
-            <div>September 2018 – August 2019</div>
-          </div>
-        </div>
-        <ul>
-          <li>Organize, and assist in events such as the Linux and programming workshops for Sennett middle school, WISE community, and students in UW- Madison</li>
-          <li>Teach the Linux workshops and answer questions to more than 30 participators in other workshops to help the audience have a deeper understanding of programming and better participations of the workshops</li>
-        </ul>
-      </div>
-
-      <!-- 星广会 -->
-      <div class="mb-4">
-        <h4 class="font-weight-bold ">Shanghai Weekly Radio Concert</h4>
-        <div class="mb-2">
-          <div>Shanghai, China</div>
-          <div class="d-flex justify-content-between align-self-center">
-            <div>Volunteer</div>
-            <div>July 2015 - Present (Intermittent)</div>
-          </div>
-        </div>
-        <ul>
-          <li>Lead the team to distribute program guides and communicate to the audience, fulfill their requests, and improve their experience</li>
-          <li>Assist in dealing with stage affairs both before and after the performance</li>
-        </ul>
-      </div>
+      <div id="service-content"></div>
     </div>
   </section>
 
   <!-- Footer -->
-  <div class="container-fluid d-flex align-items-center primary-bg m-0 p-0  justify-content-center w-100 mt-5" style="width: 100%;">
+  <div
+    class="container-fluid d-flex align-items-center primary-bg m-0 p-0  justify-content-center w-100 mt-5"
+    style="width: 100%;">
     <div class="copyright py-1 mx-0 col-10" style="text-align: center;">
       <p class="m-0">Designed and built by Yuren Sun </p>
       <p class="m-0">Powered by Bootstrap </p>
       <p class="m-0">Currently v3.0. under MIT license</p>
-      <p class="m-0">Last updated: November 7, 2022</p>
+      <p class="m-0">Last updated: January 5, 2023</p>
 
       <!-- line of button -->
-      <div class="icon-row mt-3 invert-icon">
-        <a href="https://github.com/YurenSUN/" target="_blank" title=“Link to Github” class="icon-box"><img src="photo/github-icon.png" class="icon"></a>
-        <a href="https://www.linkedin.com/in/yurensun/" target="_blank" title=“Link to Linkedin” class="icon-box"><img src="photo/linkedin-icon.png" class="icon"></a>
-        <a href="https://www.behance.net/yurenSUN" target="_blank" title="" class="icon-box"><img src="photo/behance-icon.png" class="icon"></a>
-        <a href="https://www.instagram.com/yurensun/" target="_blank" title="" class="icon-box"><img src="photo/ins-icon.png" class="icon"></a>
-        <a href="https://www.zhihu.com/people/sun-yu-ren-94/posts" target="_blank" title="" class="icon-box"><img src="photo/zhihu-icon.png" class="icon"></a>
-        <a href="Yuren_Sun_Resume.pdf" target="_blank" title="" class="icon-box"><img src="photo/cv-icon.png" class="icon"></a>
+      <div class="icon-row mt-3 invert-icon" id="icons-invert-content">
       </div>
     </div>
   </div>
