@@ -30,7 +30,7 @@
       $("#projects-content").load("projects.html");
       $("#service-content").load("service.html");
       $("#icons-content").load("icons.html");
-      $("#icons-invert-content").load("icons.html");
+      $("#icons-footer-content").load("icons.html");
     });
   </script>
 </head>
@@ -45,16 +45,16 @@
       <a class="navbar-brand" href="#">
         <img class="mr-1" src="photo/handdrawn-no-bg.png" height="50"
           alt="hand-drawn icon">
-        <img src="photo/name-icon.svg" class="invert-icon" height="35" alt="">
+        <img src="photo/name-icon.svg" class="filtered" height="35" alt="">
       </a>
       <button class="navbar-toggler" onclick="changeNavVisibility()"
         style="border: 0;">
-        <img src="photo/menu.png" class="invert-icon" height="30">
+        <img src="photo/menu.png" class="filtered" height="30">
       </button>
       <div class="collapse navbar-collapse ml-0" id="navbarNavDropdown">
         <ul class="container navbar-nav pt-1 d-flex justify-content-end">
           <li class="nav-item">
-            <h5><a class="nav-link" href="#about">About Me<span
+            <h5><a class="nav-link" href="#about">About<span
                   class="sr-only">(current)</a></h5>
           </li>
           <li class="nav-item">
@@ -246,7 +246,7 @@
       <p class="m-0">Last updated: January 5, 2023</p>
 
       <!-- line of button -->
-      <div class="icon-row mt-3 invert-icon" id="icons-invert-content">
+      <div class="icon-row mt-3" id="icons-footer-content">
       </div>
     </div>
   </div>

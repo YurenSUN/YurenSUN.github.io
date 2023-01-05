@@ -6,9 +6,11 @@ Feel free to use this website as a template but please document the source.
 
 :root {
   /* theme color */
-  --primary-color: #ffa13c;
-  --link-color: #f0a849;
-  --link-dark-color: #da953a;
+  --primary-color: #fdf0f8;
+  --logo-color: rgb(16, 83, 141);
+  --link-color: rgb(59, 128, 189);
+  --link-dark-color: rgb(6, 64, 114);
+  --title-color: rgb(16, 83, 141);
   --secondary-color: white;
 }
 
@@ -35,8 +37,8 @@ body {
 #name-front-page {
   width: 100% !important;
   height: 100% !important;
-  /* background-color: var(--primary-color); */
-  background-color: white;
+  background-color: var(--logo-color);
+  /* background-color: white; */
   -webkit-mask: url(../photo/name.svg) no-repeat center;
   mask: url(../photo/name.svg) no-repeat center;
 }
@@ -50,8 +52,18 @@ body {
   mask: url(../photo/name-icon.svg) no-repeat center;
 }
 
+/* filter icon color to title color */
+/* from codepen https://codepen.io/sosuke/pen/Pjoqqp */
+.filtered{
+  filter: invert(18%) sepia(57%) saturate(818%) hue-rotate(167deg) brightness(98%) contrast(102%);
+}
+
 
 /* Nav bar */
+
+.nav-link{
+  color: var(--logo-color) !important;
+}
 
 .navbar-inner {
   position: absolute;
@@ -61,7 +73,7 @@ body {
 .break {
     margin: 60px auto;
     width: 80%;
-    color: #987cb9;
+    color: var(--primary-color);
   }
 
 
@@ -101,7 +113,7 @@ body {
 /* texts */
 
 .section-header {
-  color: var(--primary-color);
+  color: var(--title-color);
   font-family: Luminari;
   padding: 5% 0;
 }
@@ -132,7 +144,8 @@ a:active {
 /* Copy right */
 
 .copyright {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--title-color);
+  /* color: rgba(255, 255, 255, 0.8); */
   display:block;
 }
 
