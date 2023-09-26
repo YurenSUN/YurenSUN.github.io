@@ -6,16 +6,17 @@
     <div>June 2023 – September 2023</div>
   </div>
   <ul>
-    <li>Automated the data staging region detection based on the customer
-      warehouse region to reduce data staging time with Rust</li>
-    <li>Developed internal tools to detect customer warehouse regions with Rust
-      and back-filled the warehouse regions with SQL</li>
-    <li>Migrated YAML configuration storage from JSON string to Kubernetes
-      ConfigMaps for better readability and robustness</li>
-    <li>Retrieved and logged the query execution plan during data staging to
-      understand the causes of the slow queries with Java</li>
-    <li>Developed Rust and Python endpoints and internal tools to retrieve the
-      staging query execution plan for provided workflows</li>
+    <li> Reduced insight generation time bottleneck to increase user engagement
+      by adding data warehouse region auto-detection to the Rust control plane
+      to ensure optimal data locality during the data ingest step</li>
+    <li>Took initiative on Helm chart cleanup, leveraging Kubernetes ConfigMaps
+      to store associations</li>
+    <li>Extended Rust internal tooling to allow triggering gRPC endpoints to
+      detect warehouse regions for database back-fill</li>
+    <li>Designed query execution plan observability platform to inform the
+      direction of high-priority query simplification project</li>
+    <li>Developed gRPC/Python APIs and React dashboard to enable execution plan
+      retrieval and time-breakdown chart generation</li>
   </ul>
 </div>
 
@@ -27,16 +28,14 @@
     <div>June 2021 – September 2021</div>
   </div>
   <ul>
-    <li>Designed and implemented a project for local reproductions on
-      non-data dependent issues to improve debugging abilities for
-      Redshift</li>
-    <li>Created catalog functions to extract names of both local and
-      external tables and views from queries and trace down dependencies
-      of views with C</li>
-    <li>Developed the pipeline to retrieve the data definition languages
-      from query texts with automatic dependency tracking</li>
-    <li>Developed broad tests on the feasibility of functionalities and
-      coverages of edge cases</li>
+    <li>Designed and implemented developer tooling for Redshift that enabled
+      engineers to quickly reproduce data-agnostic errors</li>
+    <li> Developed catalog functions in C to extract names of tables and views
+      from queries and trace down dependencies of views</li>
+    <li> Developed the pipeline to retrieve the data definition languages from
+      query texts with automatic dependency tracking</li>
+    <li> Conducted comprehensive testing of catalog functions to validate
+      behavior and cover edge cases</li>
   </ul>
 </div>
 
@@ -48,19 +47,13 @@
     <div>May 2020- August 2020</div>
   </div>
   <ul>
-    <li>Developed the prototypes and the minimum viable products (MVPs)
-      with HTML, JavaScript, and CSS</li>
-    <li>designed the user interface based on the target customers to
-      improve user experience; refined them with feedbacks from more than
-      100 user interviews
-    </li>
-    <li>Deployed the prototypes and the MVPs with Amazon Web Services
-      (AWS) S3 Buckets and CloudFront Distributions; Developed serverless
-      web applications with Amazon API Gateway (RESTful API), AWS Lambda
-      and Amazon DynamoDB</li>
-    <li>Managed AWS resources as code with Terraform to enhance the
-      workflow for the team</li>
-    <li>Automated the source code delivery to AWS resources from Github
-      repository with CI/CD pipelines</li>
+    <li>Developed reproducible webpages for prototypes and minimum viable
+      products using HTML, JavaScript, and CSS</li>
+    <li>Designed, implemented, and refined a user-centric interface based on
+      customer feedback to ensure a seamless user experience</li>
+    <li>Utilized AWS to set up databases and deploy serverless web applications
+      for efficient user data collection and storage</li>
+    <li> Managed AWS resources with Terraform to streamline workflow and
+      automated the code delivery with CI/CD pipelines</li>
   </ul>
 </div>
